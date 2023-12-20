@@ -1,4 +1,19 @@
 #
+- 192.168.50.100
+- 192.168.50.102
+- 192.168.50.104
+- 192.168.50.108
+
+#
+```
+pi
+```
+
+```
+wilwilwil
+```
+
+#
 ```
 sudo apt install autoconf autogen automake build-essential libasound2 libasound2-dev \
   libflac-dev libogg-dev libtool libvorbis-dev libopus-dev libmp3lame-dev \
