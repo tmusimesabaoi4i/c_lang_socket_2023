@@ -1,2 +1,2 @@
 #
-gcc -lsndfile -lasound -pthread server.c -o server
+gcc -lsndfile -lm -lasound -pthread server.c -o server
