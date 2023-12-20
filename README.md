@@ -1,2 +1,2 @@
 #
-gcc - Isnafile -lasound -pthread server.c -o server
+gcc -lsnafile -lasound -pthread server.c -o server
