@@ -14,10 +14,14 @@ wilwilwil
 ```
 
 #
+```
 sudo apt install libasound2-dev
+```
 
 #
+```
 sudo apt install libsndfile1-dev
+```
 
 #
 ```
