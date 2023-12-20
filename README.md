@@ -37,3 +37,8 @@ gcc client.c -o client -lsndfile -lm -lasound -pthread
 ```
 gcc server.c -o server -lsndfile -lm -lasound -pthread
 ```
+
+#
+```
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```
