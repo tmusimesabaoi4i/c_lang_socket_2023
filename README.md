@@ -1,7 +1,7 @@
 #
 
-sudo apt install libasound2 libasound2-dev
-sudo apt-get install libsndfile1-dev
+- sudo apt install libasound2 libasound2-dev
+- sudo apt-get install libsndfile1-dev
 
 
 #
