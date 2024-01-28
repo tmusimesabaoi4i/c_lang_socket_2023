@@ -15,20 +15,14 @@ wilwilwil
 
 #
 ```
-sudo apt install libasound2-dev
-```
-
-#
-```
-sudo apt install libsndfile1-dev
+sudo apt install libasound2-dev alsa-utils libsndfile1-dev pulseaudio
 ```
 
 #
 ```
 sudo apt install autoconf autogen automake build-essential libasound2 libasound2-dev \
   libflac-dev libogg-dev libtool libvorbis-dev libopus-dev libmp3lame-dev \
-  libmpg123-dev pkg-config python \
-  libsndfile1-dev
+  libmpg123-dev pkg-config\
 ```
 
 #
