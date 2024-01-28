@@ -36,3 +36,12 @@ gcc server.c -o server -lsndfile -lm -lasound -pthread
 ```
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 ```
+
+#
+```
+alsamixer 
+```
+
+```
+aplay -l
+```
