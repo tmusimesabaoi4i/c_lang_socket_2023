@@ -21,13 +21,22 @@ sudo apt install autoconf autogen automake build-essential libasound2 libasound2
   libasound2-dev libsndfile1-dev pulseaudio alsa-utils 
 ```
 
+###
+```
+alsamixer 
+```
+
+```
+aplay -l
+```
+
 #
 ```
 gcc client.c -o client -lsndfile -lm -lasound -pthread
 ```
 
 
-#
+###
 ```
 gcc server.c -o server -lsndfile -lm -lasound -pthread
 ```
@@ -35,13 +44,4 @@ gcc server.c -o server -lsndfile -lm -lasound -pthread
 #
 ```
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
-```
-
-#
-```
-alsamixer 
-```
-
-```
-aplay -l
 ```
