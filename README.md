@@ -13,6 +13,15 @@
 
 #
 ```
+sudo rm -rf /var/lib/apt/lists/*
+```
+
+```
+sudo apt update
+```
+
+#
+```
 pi
 ```
 
@@ -28,7 +37,6 @@ sudo apt install autoconf autogen automake build-essential libasound2 libasound2
   libasound2-dev libsndfile1-dev pulseaudio alsa-utils 
 ```
 
-###
 ```
 alsamixer 
 ```
@@ -42,8 +50,6 @@ aplay -l
 gcc client.c -o client -lsndfile -lm -lasound -pthread
 ```
 
-
-###
 ```
 gcc server.c -o server -lsndfile -lm -lasound -pthread
 ```
