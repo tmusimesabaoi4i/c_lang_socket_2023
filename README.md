@@ -1,4 +1,11 @@
 #
+- python : python通信プログラム
+- python_time : 時間計測(python)
+- socket_thread : c通信プログラム
+- socket_thread_buffre
+- socket_thread_time : 時間計測(c)
+
+#
 - 192.168.50.100
 - 192.168.50.102
 - 192.168.50.104
